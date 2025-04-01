@@ -2,12 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Personal Portfolio</title>
+    <style>
+    .header {    
+      background: url('EmilySmith.png') no-repeat center center/cover;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: rgb(0, 0, 0);
+  }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
+    <header id="header" class="jumbotron-fluid header">  
+      <div class="container text-center">
+          <div class="header-text">
+              <h1>Welcome to my professional portfolio!</h1>
+              <p>Find information on all your favorite Pokemon </p>
+          </div>
+      </div>
+  </header>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
