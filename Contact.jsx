@@ -4,8 +4,8 @@ const Contact = () => {
     return (
         <footer>
             <h2>Contact</h2>
-            <p>Email: john.doe@example.com</p>
-            <p>LinkedIn: linkedin.com/in.johndoe</p>
+            <p>Email: emily.smith@example.com</p>
+            <p>LinkedIn: linkedin.com/in.emilysmith</p>
         </footer>
     );
 };
