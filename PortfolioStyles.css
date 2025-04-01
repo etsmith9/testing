@@ -24,3 +24,20 @@ footer {
     margin-top: 20px;
     padding: 10px;
 }
+
+
+.header-text {
+    background-color: rgba(233, 170, 24, 0.998); 
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
