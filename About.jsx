@@ -6,7 +6,7 @@ class About extends Component {
         return (
             <section>
                 <h2>About Me</h2>
-                <p> I am a passonate Web Developer with a love for creating dynamic and user-friendly websites. Welceome to my portfolio!</p>
+                <p> I am a passonate Web Developer with a love for creating dynamic and user-friendly websites. Welcome to my portfolio!</p>
             </section>
         );
     }
